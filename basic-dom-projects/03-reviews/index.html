@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Reviews</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="container-center">
+        <h2 class="title">top Reviews</h2>
+        <div class="card">
+          <div class="img-container">
+            <img src="./person.jpg" alt="" id="img" />
+          </div>
+          <h3 id="author">Judith Williams</h3>
+          <h4 id="job">Software Engineer</h4>
+          <p id="review-content">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto quod
+            optio maxime impedit eius odio perferendis ipsa, neque voluptate
+            rerum maiores.
+          </p>
+          <button id="prev-btn">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button id="next-btn">
+            <i class="fa-solid fa-arrow-right"></i>
+          </button>
+          <button class="btn" id="random-btn">Random</button>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
